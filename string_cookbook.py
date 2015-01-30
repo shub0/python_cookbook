@@ -1,7 +1,7 @@
 #! /usr/bin/python
 import operator
 import string
-form __future__ import division
+from __future__ import division
 
 text_characters = ''.join(map(chr, range(32, 127)) + '\n\r\t\b'
 _null_trans = string.maketrans('','')
